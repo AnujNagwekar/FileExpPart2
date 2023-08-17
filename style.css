@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a cool gradient background */
+  body {
+    background: linear-gradient(to bottom right, #70a1ff, #60d394);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the input field */
+  #InputValueId {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #60d394;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Style the main section */
+  #main_section {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #60d394;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the buttons with animations */
+  .icons {
+    background-color: #70a1ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .icons:hover {
+    background-color: #4784e8;
+  }
+  
+  .icons:active {
+    transform: scale(0.95);
+  }
+  
+  /* Style the folder and file names */
+  #main span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Rotate animation for the collapse icon */
+  .rotate {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate.collapsed {
+    transform: rotate(90deg);
+  }
+  
+  /* Style the delete button */
+  #deletebutton1 {
+    background-color: #e74c3c;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 8px 10px;
+    color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  #deletebutton1:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Add some spacing between items */
+  #main > * {
+    margin-bottom: 15px;
+  }
+  
